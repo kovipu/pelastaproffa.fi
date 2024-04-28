@@ -6,8 +6,8 @@
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px; */
+  /* padding: 0px; */
   box-sizing: border-box;
 }
 
@@ -22,10 +22,48 @@ body {
 
 .wrapper {
   max-width: 700px;
-  padding: 60px 24px;
+  padding: 24px;
   margin: 0 auto;
+}
+
+header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  width: 120px;
+}
+
+.logo-wrapper > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+header a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+header a:hover {
+  text-decoration: underline;
 }
 
 p {
   margin: 24px 0;
+  text-align: justify;
+}
+
+li {
+  margin: 8px 0;
+}
+
+li a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+li a:hover {
+  color: #888;
 }
