@@ -13,16 +13,29 @@
 
 body {
   font-family: "PT Serif", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-primary);
   background-color: var(--color-background);
 }
 
+h1 {
+  font-size: 42px;
+}
+
+@media screen and (min-width: 80rem) {
+  h1 {
+    font-size: 44px;
+  }
+  body {
+    font-size: 20px;
+  }
+}
+
 .wrapper {
   max-width: 700px;
-  padding: 24px;
+  padding: 16px;
   margin: 0 auto;
 }
 
